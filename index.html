@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shopping</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="src/main.js" defer></script>
+  </head>
+  <body>
+    <!-- Logo -->
+    <button class="logo">
+      <img src="img/logo.png" alt="Logo" class="logoImg" data-filter="*" />
+    </button>
+
+    <!-- Nav -->
+    <nav class="navbar">
+      <button class="navbarBtn">
+        <img
+          src="img/blue_t.png"
+          alt="Tshrit"
+          class="navbarBtnImg"
+          data-filter="tshirt"
+        />
+      </button>
+      <button class="navbarBtn">
+        <img
+          src="img/blue_p.png"
+          alt="Pants"
+          class="navbarBtnImg"
+          data-filter="pants"
+        />
+      </button>
+      <button class="navbarBtn">
+        <img
+          src="img/blue_s.png"
+          alt="Skirt"
+          class="navbarBtnImg"
+          data-filter="skirt"
+        />
+      </button>
+      <button class="navbarBtn navbarBtnColor Blue" data-filter="blue">
+        Blue
+      </button>
+      <button class="navbarBtn navbarBtnColor Yellow" data-filter="yellow">
+        Yellow
+      </button>
+      <button class="navbarBtn navbarBtnColor Pink" data-filter="pink">
+        Pink
+      </button>
+    </nav>
+
+    <!-- List -->
+    <ul class="items"></ul>
+  </body>
+</html>
